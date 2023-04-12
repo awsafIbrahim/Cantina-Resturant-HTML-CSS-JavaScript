@@ -1,0 +1,315 @@
+ /*Homepage Styling*/
+/*Styling the head structure of the webpage*/
+
+/*Adjusting the right and left margins of the total content*/
+
+
+html{
+    margin-left:5%;
+    margin-right:5%;
+}
+main#main-id{
+    overflow: auto;
+}
+
+header h1{
+    text-align: center;
+    
+}
+
+header{
+    background-color:bisque;
+    height:10vw;
+    
+}
+
+h2 {
+    color:darkmagenta;
+}
+
+
+
+
+/*Alligning the navigation bar to the center*/
+nav#primary-nav {
+    display: flex;
+    justify-content: center;
+    background-color:darkorange;
+    
+    
+}
+
+nav#primary-nav a{
+  margin: 5px;
+}
+
+nav#primary-nav a:hover{
+    color:bisque
+}
+
+/*Styling the image of the homepage*/
+
+.image-class{
+    width:45vw;
+    height:30vw;
+    
+}
+/*Aligning the image in the center*/
+div#first-div{
+    margin-top: 12px;
+    margin-bottom:12px;
+    display: flex;
+    justify-content: center;
+}
+/*Styling the footer and navigation parts*/
+section#announcement{
+    float:left;
+    width:30%;
+    margin-right:10px;
+}
+
+aside#ratings{
+    float:right;
+    width:30%;
+    margin-right:0;
+}
+/*Creating some padding for the labels*/
+label#experience,
+label#message-id,
+label#email-id{
+    padding-bottom:10px;
+    padding-top:10px;
+}
+input#message-button,
+input#you-button,
+input#submit-btn{
+    margin-top:10px;
+}
+
+footer#main-footer{
+    clear:both;
+
+    margin-top:10px;
+    background-color: black;
+    color:white;
+    height: 7vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav#footer-nav a{
+    margin:3px;
+    color:blue;
+    
+}
+
+
+nav#footer-nav a:hover {
+    color: aqua;
+}
+/*Styling the form part of the contact page*/
+div#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section#locations {
+    width:40%;
+    margin-left:5%;
+   background-color:grey;
+   margin-top:10px;
+   padding-left: 10px;
+  
+    
+}
+
+section#work-hours{
+    width:40%;
+    margin-right: 5%;
+    background-color:grey;
+    margin-top:10px;
+    padding-left:10px;
+}
+/*Styling the first form of the contact page*/
+form#form-id{
+   display: flex;
+   flex-direction: column;
+   width: 15%;
+   padding: 10px;
+
+}
+
+/*Styling the second form of the contact page*/
+form#second-form{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    padding:10px;
+    
+    
+}
+
+
+aside#about-you{
+    clear:left;
+}
+
+/*Styling the contact page image*/
+
+.contact-img{
+    width:30vw;
+    height:20vw;
+    margin-right:5%;
+    float:right;
+    
+}
+
+section#join-team{
+    float:left;
+    
+
+}
+
+/*Styling the poutine image of the menu page*/
+.food-img{
+    height: 200px;
+    width:300px;
+    margin-left:10px;
+}
+
+section#heritage{
+    float:right;
+    width:45vw;
+    height:45vw;
+    
+}
+
+
+
+section#para-section{
+    width:42vw;
+    float:left;
+}
+
+.restaurant-img{
+    height:400px;
+
+    width:800px;;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+/*Styling the map image*/
+.map-img{
+    height:200px;
+
+    width:400px;
+    margin-bottom:30px;
+    
+    
+}
+
+section#history{
+    clear:both;
+    margin-bottom:75px;
+}
+
+section#culture{
+    float:left;
+    margin-right:500px;
+}
+
+
+
+/*Styling the webpage for tablet view*/
+
+@media screen and (max-width:960px){
+    nav#primary-nav, 
+    body#all-body,
+    footer#main-footer{
+       display: flex;
+        flex-direction: column;
+    }
+
+    nav#primary-nav a{
+        display: flex;
+        justify-content: center;
+    }
+
+    header{
+        background-color:blue;
+        height:5%;
+    }
+    footer{
+        background-color: blueviolet;
+    }
+    footer#main-footer{
+		height:20%;
+		
+	}
+    /*Setting the sections properly in contact page so that they dont coincide*/
+    section#locations{
+        height:5%;
+        margin-top:100px;
+    }
+    section#work-hours{
+        height: 3%;
+        margin-top:100px;
+    }
+    /*Setting the sections properly in menu page so that they dont coincide*/
+    section#food-section{
+        width:40%;
+    }
+   /*Setting the image properly so that the images doesnt coincide with other sections*/
+    .food-img{
+        width:90%;
+    }
+
+   
+    
+}
+
+
+/*Styling the webpage for mobile view*/
+@media screen and (max-width:640px){
+    nav#primary-nav, 
+    body#all-body,
+    footer#main-footer{
+       display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        background-color:brown;
+        height:5%;
+    }
+    footer#main-footer{
+		height:20%;
+		
+	}
+    /*Setting the sections properly in contact page so that they dont coincide*/
+    section#locations{
+        height:5%;
+        margin-top:100px;
+    }
+    section#work-hours{
+        height: 3%;
+        margin-top:100px;
+    }
+    /*Setting the sections properly in menu page so that they dont coincide*/
+    section#food-section{
+        width:40%;
+    }
+   /*Setting the image properly so that the images doesnt coincide with other sections*/
+    .food-img{
+        width:90%;
+    }
+
+   
+    
+}
+
