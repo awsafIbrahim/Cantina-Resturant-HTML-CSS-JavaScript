@@ -6,7 +6,7 @@ Last Modification Date:  08 03 2022
 
 ## Author(s)
 
-- Full Name: <Awsaf Hanif Ibrahim>
+- Full Name: Awsaf Hanif Ibrahim
 - Email: aw613718@dal.ca
 
 
