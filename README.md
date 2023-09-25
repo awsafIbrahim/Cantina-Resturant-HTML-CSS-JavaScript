@@ -1,4 +1,4 @@
-# Assignment 3: CSCI 1170, Winter 2022
+
 
 Date Created: 08 03 2022
 Last Modification Date:  08 03 2022
